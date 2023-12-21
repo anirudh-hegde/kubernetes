@@ -17,10 +17,13 @@ limitations under the License.
 package main
 
 import (
+	// --------------------------------------------------------------
+	//below packages arnot opening and I think it been deprecated
 	"k8s.io/component-base/cli"
 	"k8s.io/kubectl/pkg/cmd"
 	"k8s.io/kubectl/pkg/cmd/util"
-
+        // --------------------------------------------------------------
+	
 	// Import to initialize client auth plugins.
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 )
